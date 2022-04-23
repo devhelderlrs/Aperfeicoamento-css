@@ -59,7 +59,6 @@
 
     #imagem:hover{
         padding: 20px 60px;
-        /* border: 3px solid #ffd000; */
     }
 
     .scroll{
@@ -71,13 +70,14 @@
     }
 
     .scrollimg{
-        width: 10%;
+        width: 20%;
         height: 200px;
         position: relative;
-        padding: 0 10px 0 10px;
+        padding: 0 10px;
         transition: 1s;
         transition-timing-function: ease;
         align-content: center;
+        /* border: 1px solid white; */
     }
 
     .scrollimg h1{
@@ -87,21 +87,21 @@
     
     .scrollimg:hover{
         position: relative;
-        padding: 20px 65px 120px;
+        width: 15%;
+        height: 12%;
+        padding: 10px 0;
         transition: 1s;
         border-radius: 20px;
-        background-color: #ffd000;
+        background-color: #0f0e0a;
         top: -50px;
         transition: 1s;
     }
 
     .descricao{
-        display: none;
+        /* display: none; */
         text-align: center;
-        padding: 0 0 30px 0;
-        width: 200px;
-        margin: 0 -50px;
         transition: 1s;
+        /* border: 1px solid; */
         transition-timing-function: ease;
     }
 
@@ -111,7 +111,7 @@
         transition-timing-function: ease;
         border-radius: 20px;
         color: white;
-        width: 200px;
+        max-width: 100%;
         background-color: black;
     }
 
